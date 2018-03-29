@@ -1,0 +1,4 @@
+<h1> Liste des posts got from a REST Ressource</h1>
+<ul>
+  <li *ngFor='let p of data | slice:0:10'> {{p.id}} - {{p.userId}} - {{p.title}}</li>
+</ul>
